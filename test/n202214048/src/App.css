@@ -1,0 +1,69 @@
+/* 화면 중앙 정렬 */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 흰색 전체 박스 */
+.app-box {
+  background-color: white;
+  border: 1px solid gray;
+  width: 300px;
+  padding: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Exam1, Exam2 공통 박스 */
+.exam-box {
+  padding: 10px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+/* Exam1 - 노란색 */
+.exam1-box {
+  background-color: lightyellow;
+}
+
+/* Exam2 - 연두색 */
+.exam2-box {
+  background-color: #ccffcc;
+}
+
+/* Exam2의 자식 박스 - 짙은 녹색 */
+.exam2-child {
+  background-color: #99e699;
+  margin-top: 10px;
+  padding: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* 숫자 표시 */
+.count {
+  color: blue;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+/* 버튼 간격 */
+button {
+  margin-left: 5px;
+}
+
+/* Exam3 - 하늘색 박스 */
+.exam3-box {
+  background-color: #ccf9ff;
+}
+
+/* 구구단 표 스타일 */
+.exam3-box table {
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.exam3-box td {
+  border: 1px solid #999;
+  padding: 4px 8px;
+}

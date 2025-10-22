@@ -1,0 +1,18 @@
+div {
+  padding: 1em;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 5px;
+  width: 300px;
+}
+
+td {
+  border: 1px solid gray;
+  padding: 4px;
+}
+
+thead {
+  background-color: #eee;
+}
